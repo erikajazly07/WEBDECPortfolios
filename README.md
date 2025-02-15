@@ -8,6 +8,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     
+    <style>
+        h1 {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            margin-left: 50px;
+            margin-right: 20px;
+        }
+
+        nav {
+            background-color: #BDB2FF;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none; 
+            margin-right: 10px;
+            font-size: 16px;
+        }
+    </style>
 </head>
 <body style="background-color: lightblue;">
     <header>
@@ -65,8 +84,9 @@
     </table>
 
     <ul>
-        <li>hello <a target="_blank" href="http://map.google.com">world</a></li>
-        <li>world</li>
+        <li>Address: Magsaysay, Tagudin, Illocos Sur</li>
+            <a target="_blank" href="https://www.google.com/maps/place/WCMV%2BXC9%2C+Tagudin%2C+Ilocos+Sur%2C+Philippines/@17.1061992,120.3323271,17z/data=!3m1!4b1!4m5!3m4!1s0x33904447e9260843:0x24533006f59a411!8m2!3d17.1061992!4d120.3345158"> Google Maps</a>
+        
     </ul>
 
     <form>
@@ -89,4 +109,4 @@
         </nav>
     </footer>
 </body>
-</html>
+</html> 
